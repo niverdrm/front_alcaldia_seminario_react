@@ -1,0 +1,48 @@
+.content_all{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.content_card{
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    width: 100%;
+}
+.article{
+    padding: 30px 20px 0;
+    margin: 0 20px 30px;
+}
+.article > p{
+    margin: 0;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    color: #434343;
+}
+.a{
+    text-decoration: none;
+    color: #004884;
+}
+.a > h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.title{
+    font-size: 2rem;
+    color: #004884;
+}
+
+/* md */
+@media (min-width: 768px) {
+    .content {
+        width: 680px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1024px){
+    .content_all{
+        width: 960px;
+        margin: 0 auto;
+    }
+}

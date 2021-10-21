@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "tittle": "OMS: Variante india de covid-19 fue detectada en al menos 53 territorios",
+        "description": "La variante india del covid-19 se ha detectado oficialmente en 53 territorios, según un informe de la Organización Mundial de la Salud publicado este miércoles. No obstante, la máxima autoridad mundial en materia de salud ha recibido información de fuentes no oficiales que indican que la variante B.1.617 se ha encontrado en otros siete territorios, según cifras epidemiológicas semanales actualizadas, lo que eleva el número a 60.",
+        "image": "https://imagenesntn24.canalrcn.com/ImgNtn24/covid-india_0.jpg"
+    },
+    {
+        "id": 2,
+        "tittle": "Biden ordena redoblar esfuerzos de EE. UU. para averiguar origen de la pandemia",
+        "description": "El presidente estadounidense, Joe Biden, aseguró este miércoles que ha pedido a los servicios de Inteligencia de EE.UU. que redoblen sus esfuerzos para averiguar el origen de la pandemia de la covid-19, después de que la teoría de que surgió en un laboratorio de Wuhan (China) ha ganado enteros en los últimos días.",
+        "image": "https://imagenesntn24.canalrcn.com/ImgNtn24/063_1306384819_0.jpg"
+    },
+    {
+        "id": 3,
+        "tittle": "La erróneamente llamada ‘lotería de los penaltis’",
+        "description": "Los jugadores de Villarreal y Manchester United mostraron nervios de acero para protagonizar una tanda para el recuerdo, no se trata de azar. Se dice habitualmente que ganar o perder en una tanda de penaltis depende de tener buena o mala suerte. Pero la realidad es que no es así. Los lanzamientos desde los once metros no tratan de lanzar una moneda al aire.",
+        "image": "https://www.mundodeportivo.com/r/GODO/MD/p8/Futbol/Imagenes/2021/05/26/Recortada/d60e32b7e32b4b6b994e9f1f3aba6b19-0344-kOO-U493945601825ei-980x554@MundoDeportivo-Web.jpg"
+    }
+]

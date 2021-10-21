@@ -1,0 +1,61 @@
+.footer_bottom{
+    background-color: #353535;
+    color: #f2f2f2;
+}
+
+.footer_infoAlcaldia{
+    padding-top: 20px;
+    font-size: small;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.letter_color{
+    color: #9191fd;
+}
+
+.footer_middle{
+    background-color: #4e4e4e;
+    color: #f2f2f2;
+    padding:30px;
+    font-size: medium;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}
+
+.logo{
+    height: 3em;
+    width: 3em;
+    margin-right: 20px;
+}
+
+.redes{
+    padding-top: 30px;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer_top{
+    background-color: #777474;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.special_font{
+    color: rgb(189, 167, 167);
+    font-size: 25px;
+}
+
+.btn-primary{
+    background-color: #3884f7;
+}

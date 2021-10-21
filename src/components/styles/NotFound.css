@@ -1,0 +1,41 @@
+.caja{
+    font-family: "montserrat", sans-serif;
+
+    /*background-image: linear-gradient(125deg, #6a89cc, #b8e994);*/
+}
+
+.caja{
+  width: 100%;
+  position: relative;  
+  top: 50%;
+  transform: translateY(50%);
+  text-align: center;
+  color: #343434;
+}
+
+.caja h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url("https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?size=626&ext=jpg") center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.caja a{
+    text-decoration: none;
+    background: #215A9A;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.caja a:hover{
+    background-color: #e5ebf3;
+    color: #215A9A;
+}

@@ -1,0 +1,50 @@
+.encabezado{
+    padding-top: 2%;
+}
+.card{
+    margin-bottom: 3%;
+    padding-left: 2rem 0 !important;
+    padding-right: 2rem 0 !important;
+    text-align: center;
+    justify-content: center;
+}
+.card:hover{
+cursor: pointer;
+box-shadow: 5px 5px 5px 5px rgba(119, 189, 244, 0.5) !important;
+transition: all 0.1s linear;
+
+}
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+transition: all 2s ease-in-out;
+}
+
+.card-img-top:hover{
+    transform: scale(1.25);
+}
+
+.titulito{
+    text-transform: uppercase;
+    /*background-color:#0C69B2;*/
+    font-family: 'arial';
+    color: #215A9A;
+   
+}
+#link{
+    text-decoration: none;
+}
+
+.card-te{
+    color: black;
+    justify-content: center;
+}
+
+div.card {
+    height: calc(100% - 15px);
+    margin-bottom: 15px;
+}
+.tit_temas{
+    color: black;
+}

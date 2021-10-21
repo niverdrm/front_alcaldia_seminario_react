@@ -1,0 +1,99 @@
+#newsletter-home{
+    display: flex; 
+    flex-direction: column;
+    color: #FFFFFF;
+	background: #585858;
+	padding: 30px 0;
+}
+
+.title-section{
+    text-align: center;
+    font-weight: 400;
+	margin: 10px 50px 10px 0;
+	float: left;
+}
+
+.btn .btn-subs{
+    width: fit-content; 
+    padding-top: 10px;
+    color: #FFFFFF;
+	font-size: 1.125em;
+	background-color: #00AEEF;
+	height: 50px;
+	padding: 6px 60px;
+	display: block;
+	margin: auto;
+	border: none;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.btn-subs{
+    width: fit-content !important; 
+    padding-top: 10px !important;
+    color: #FFFFFF !important;
+	font-size: 1.125em !important;
+	background-color: #00AEEF !important;
+	height: 50px !important;
+	padding: 6px 60px !important;
+	display: block !important;
+	margin: auto !important;
+	border: none !important;
+	border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+}
+
+.desubscribirse{
+    color:white;
+    cursor:pointer;
+    padding: 6px 0;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#newsletter-home .form-group input {
+	background: transparent;
+	color: #FFFFFF;
+	border: 1px solid rgba(255,255,255,.5);
+	height: 50px;
+	min-width: 275px;
+	padding: 6px 20px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	text-align: center;
+}
+#newsletter-home .form-group {
+    margin: 0 15px;
+    vertical-align: top;
+}
+#newsletter-home .form-group ::-webkit-input-placeholder { color: #fff !important;}
+#newsletter-home .form-group input:-webkit-autofill { background-color: #000 }
+#newsletter-home .form-control:focus {
+    border-color: rgba(255,255,255,1);
+}
+#newsletter-home .form-control:-moz-placeholder {
+    color: rgba(255,255,255,.5);
+}
+#newsletter-home .form-control::-moz-placeholder {
+    color: rgba(255,255,255,.5);
+    opacity: 1;
+}
+
+#newsletter-home .checkbox {
+	color: rgba(255,255,255,.75);
+	margin: 0 15px;
+}
+
+.special_letter{
+	font-size: 24px;
+}
+
+.icon{
+	padding-right: 15px;
+}

@@ -1,0 +1,17 @@
+.navbar-brand img{
+    height: 50px;
+    width: 50px;    
+}
+
+.nav-dark{
+    background-color: #215A9A;
+}
+
+.alcaldia{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #FFFFFF !important;
+    background: #215A9A;
+}

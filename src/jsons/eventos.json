@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "dia": 18,
+        "mes": "Junio",
+        "tittle": "Marcha por la paz",
+        "image": "../images/eventos/1.jpg"
+    },
+    {
+        "id": 2,
+        "dia": 22,
+        "mes": "Junio",
+        "tittle": "Jornada de vacunación",
+        "image": "../images/eventos/1.jpg"
+    },
+    {
+        "id": 3,
+        "dia": 23,
+        "mes": "Junio",
+        "tittle": "Jornada de adopción",
+        "image": "../images/eventos/1.jpg"
+    }
+  ]

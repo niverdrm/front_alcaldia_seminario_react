@@ -1,0 +1,15 @@
+
+.form_group{
+padding-top: 15px;
+}
+
+.category{
+    margin-right: 10px;
+}
+
+.image{
+    margin-right: 10px;
+}
+#label{
+    color: #000 !important;
+}

@@ -1,0 +1,207 @@
+.encabezado{
+    padding-top: 2%;
+    }
+
+    .card{    
+        padding-left: 2rem 0 !important;
+        padding-right: 2rem 0 !important;
+        border: none;
+    }
+    .card:hover{
+    cursor: pointer;
+    }
+    .overflow{
+        overflow: hidden;
+    }
+    .card-img{
+    transition: all 2s ease-in-out;
+    }
+    
+    .card-img:hover{
+        transform: scale(1.8);
+    }
+    
+    .card-img-t {
+        height: 16rem;
+        width: 100%;   
+      }
+      
+      .enc_imagen {
+        position: relative;    /* para poder posicionar el texto de forma absoluta */
+        display: inline-block; /* para que solo ocupe el ancho de la imagen */
+      }
+      .card-title {
+        position: absolute;    /* posición absolute con respecto al padre */
+        bottom: 15px;             /* posicionada en la esquina inferior derecha */
+        left: 5rem;
+        color: white;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      .card-titl {
+        position: absolute;    /* posición absolute con respecto al padre */
+        bottom: 0px;             /* posicionada en la esquina inferior derecha */
+        left: 5rem;
+        color: white;
+        font-family: ubuntu;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    .card-text{
+        color: black;
+    }
+    
+    div.evento{
+        height: calc(100% - 15px);
+        margin-bottom: 15px;
+    }
+    .categoria{
+      color: grey;
+        text-align: left;
+    }
+    .card-3 .views-field-field-categoria span.field-content {
+        height: 22px;
+        
+    }
+    .card-3 .views-field-field-categoria span.field-content a{
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        float: left;
+    }
+    .card-3 .views-field-field-categoria {
+        display: block;
+        background: #215A9A;
+        width: 100%;
+        font-family: Rajdhani,sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 6px 6px 6px 20px;
+        color: #fff;
+
+    }
+    .card-3 .views-field-field-image .field-content {
+        position: relative;
+        overflow: hidden;
+        width: inherit;
+        height: 160px;
+    }
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: 160px;
+    }
+    .card-3 {
+        border: 1px solid #a0a0a0;
+        padding: 0 0 20px;
+        margin-top: 0;
+    }
+    @media (max-width: 768px){
+.card {
+    min-height: auto;
+    margin-bottom: 70px;
+}
+    }
+    .card {
+        border: 1px solid #a0a0a0;
+        margin-bottom: 20px;
+        height: auto;      
+        /*min-height: 464px;*/
+    }
+
+    .card:hover{
+        cursor: pointer;
+        box-shadow: 5px 5px 5px 5px rgba(119, 189, 244, 0.5) !important;
+        transition: all 0.1s linear;
+    }
+
+    .card-3 .views-field-title {
+        height: 114px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    .titulo--card a{
+        height: auto;
+        overflow: normal;
+        font-size: 0.9em;
+ 
+        font-weight: 600;
+        text-transform: none;
+        color: #333;
+        background-color: #fff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        height: 106px;
+        margin-top: 0;
+        font-family: Ubuntu;
+        line-height: 38px;
+        padding: 0;
+    }
+    .titulo--card a:hover{
+        color: #000;
+    }
+    .card-3 .titulo--card, .card-3 .views-field-title {
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .card-3 .titulo--card {
+        margin-top: 5px;
+        padding: 0 15px;
+    }
+
+    .card-3 .views-field-fecha{
+        font-family: Rajdhani,sans-serif;
+        font-size: 1.25em;
+        color: gray;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-family: Rajdhani,sans-serif;
+        padding: 0 15px 5px 5px;
+        font-size: 1.1em;
+        
+    }
+
+    p {
+    font-family: Metrophobic,sans-serif;
+    font-size: 1.125em;
+    line-height: 1.7em;
+    color: #333;
+}
+@media only screen and (max-width: 767px){
+.card-3 .views-field-share {
+    bottom: -15px;
+    position: relative;
+}}
+
+.card-3 .views-field-share {
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+
+.card-3 .views-field-share .views-label-share {
+    font-family: Rajdhani,sans-serif;
+    font-size: .825em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    padding: 10px;
+    display: block;
+   
+}
+
+.icon_face{
+color: #666;
+padding: 10px;
+font-size: 1.3em;
+
+}

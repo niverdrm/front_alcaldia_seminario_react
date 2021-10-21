@@ -1,0 +1,20 @@
+.block-container{
+    display: grid;
+}
+
+.icon_description{
+    padding-top: 20px;
+}
+
+.item2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 25% !important;
+}
+
+@media (max-width: 725px) {
+    .item2{
+        width: 50% !important;
+    }
+}

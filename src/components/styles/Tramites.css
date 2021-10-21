@@ -1,0 +1,22 @@
+.nav-item{
+    padding: .5em;
+}
+
+.nav-item a{
+    color: #454545;
+    font-size: 1.143em;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+    background: #215A9A;
+}
+
+#service-list{
+    padding-bottom: 30px;
+}
+
+.mb-2 {margin-bottom: 20px;}
+
+.flex { display: flex;}
+.justify-center {justify-content: center;}

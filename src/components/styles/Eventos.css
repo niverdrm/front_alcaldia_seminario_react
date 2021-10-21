@@ -1,0 +1,45 @@
+.image img {
+  min-width: 45vh;
+  height: 40vh;
+}
+
+.date {
+  color: #215a9a;
+  float: left;
+  width: 25%;
+  background: #ffffff;
+  padding: 15px;
+  text-align: center;
+  height: 120px;
+}
+
+.date span {
+  display: block;
+  line-height: 1.125em;
+}
+.date .day {
+  font-size: 2.25em;
+}
+.date .month {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.title {
+  color: #555555;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.125em;
+  background: #ffffff;
+  padding: 15px;
+  width: 75%;
+  height: 120px;
+  overflow: hidden;
+  display: block;
+  float: right;
+}
+
+.description-img {
+  margin: 0 auto;
+  width: 45vh;
+}

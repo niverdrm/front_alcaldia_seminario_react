@@ -1,0 +1,22 @@
+.thead-dark{
+    background-color: #215A9A;
+}
+
+.thead-dark tr th{
+    color: white;
+}
+#edit-icon {
+    margin-right: 5px;
+    font-size:25px;
+    color:#2d5d8b;
+}
+
+#delete-icon {
+    font-size:25px;
+    color:#ab4630  ;
+}
+
+#create-icon {
+    font-size:2.3em;
+    color: #2ead72;
+}

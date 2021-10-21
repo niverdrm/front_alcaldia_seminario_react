@@ -1,0 +1,35 @@
+.card{
+    border: 1px solid #bbbbbb;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.card:hover{
+    background:#00aa9f;
+    color: white;
+}
+.card__a{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #00aa9f;
+    text-decoration: none;
+}
+.card >a:hover{
+    color: white;
+}
+.card__a_img{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+}
+.card__img{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.card__title{
+    margin:20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+}

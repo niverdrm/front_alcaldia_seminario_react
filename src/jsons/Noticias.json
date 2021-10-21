@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "tittle": "ALCALDÍA DE CÚCUTA AVANZA EN LA RECUPERACIÓN INTEGRAL DEL CANAL BOGOTÁ",
+        "image": "https://cucutanortedesantander.micolombiadigital.gov.co/sites/cucutanortedesantander/content/files/000985/49210_alcaldia-de-cucuta-avanza-en-la-recuperacion-integral-662428_1024x600.jpg",
+        "fecha": "20/05/2021",
+        "description":"La Alcaldía de Cúcuta, en cabeza del ingeniero Jairo Yáñez, y a través de la Secretaría de Infraestructura, desarrolló jornadas de sensibilización ambiental barrio por barrio en un esfuerzo conjunto.",
+        "story": ""
+    },
+    {
+        "id": 2,
+        "tittle": "ALCALDÍA DE CÚCUTA SE UNE A LOS GREMIOS PARA LA BÚSQUEDA DE EMPLEO JOVEN",
+        "image": "https://cucutanortedesantander.micolombiadigital.gov.co/sites/cucutanortedesantander/content/files/000985/49208_whatsapp-image-20210524-at-113722-am_1024x600.jpeg",
+        "fecha": "9/05/2021",
+        "description":"El programa “AliadosXelEmpleo”, a través de los proyectos “Ruta de Empleo Cúcuta 2050” y “Empleo joven, mi primera experiencia laboral”, busca generar espacios de participación.",
+        "story": ""
+    },
+    {
+        "id": 3,
+        "tittle": "¿Dónde hay pruebas de COVID-19 gratis en Bogotá?",
+        "image": "https://bogota.gov.co/sites/default/files/styles/1050px/public/2021-04/prueba-covid-bogota-gratis.jpg",
+        "fecha": "24/05/2021",
+        "description":"Todas las personas que quieran tomarse la prueba PCR para COVID-19 de manera gratuita en Bogotá, podrán hacerlo este miércoles 26 de mayo.",
+        "story": ""
+    }
+]

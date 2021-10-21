@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body{
+    font-family: 'Droid Sans';
+}
+
+.section_tittles{
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.dark-back{
+    background-color: #215A9A;
+    color: white;
+}
+.light-back{
+    background-color: #FFFFFF;
+    color:#555555;
+}
+.dark-back .section_tittles{
+    color: #ffffff;
+}

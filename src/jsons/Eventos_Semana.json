@@ -1,0 +1,102 @@
+[
+    {
+      "albumId": 1,
+      "id": 1,
+      "categoria": "CULTURA",
+      "title": "Feria de Cúcuta 2021",
+      "url": "https://cr00.epimg.net/emisora/imagenes/2016/07/12/cucuta/1468341644_329554_1468341876_noticia_normal.jpg",
+      "descripcion": "Vive las ferias de Cúcuta, llenas de Danza, el folclor, la cultura y comerco, este fin de semana",
+      "fecha_inicio": "15/02/2021",
+      "fecha_finaliza": "17/02/2021"
+    },
+    {
+      "albumId": 1,
+      "id": 2,
+      "categoria": "RECREACIÓN Y DEPORTES",
+      "title": "Vuelta a Cúcuta 2021",
+      "url": "http://www.laopinion.com.co/sites/default/files/2021-04/vueltaq2.jpg",
+      "descripcion": "Disfruta de este importante evento deportivo, en las calles de la Ciudad de Cúcuta",
+      "fecha_inicio": "23/05/2021",
+      "fecha_finaliza": "30/05/2021"
+    },
+    {
+      "albumId": 1,
+      "id": 3,
+      "categoria": "CULTURA",
+      "title": "Festival del Libro",
+      "url": "http://www.laopinion.com.co/sites/default/files/2020/08/30/imagen/flic.jpg",
+      "descripcion": "Vive la Semana del Libro, en compañia de tus seres queridos, el la Biblioteca Pública",
+      "fecha_inicio": "01/08/2021",
+      "fecha_finaliza": "03/08/2021"
+    },
+    {
+      "albumId": 1,
+      "id": 4,
+      "categoria": "GASTRONOMIA",
+      "title": "Norte Gourmet 2021",
+      "url": "https://www.areacucuta.com/wp-content/uploads/2020/02/acodres.jpg",
+      "descripcion": "Disfruta de Preparaciones y platos tipicos de la región en Norte Gourmet 2020",
+      "fecha_inicio": "12/04/2021",
+      "fecha_finaliza": "15/04/2021"
+    },
+    {
+      "albumId": 1,
+      "id": 5,
+      "categoria": "TURISMO",
+      "title": "Hackaton Cúcuta 2021",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKLAJOw-m3aqavta93S9eP2hW_9Lv7H9pu5g&usqp=CAU",
+      "descripcion": "Participa en esta gran Hackaton Turistica, y gana grande premios o bonos de descuento",
+      "fecha_inicio": "26/05/2021",
+      "fecha_finaliza": ""
+    },
+    {
+      "albumId": 1,
+      "id": 6,
+      "categoria": "EDUCACIÓN",
+      "title": "Retorno a las Aulas",
+      "url": "https://lh3.googleusercontent.com/proxy/O5VD_P6ucUJYfWUtd1YU9chVDYuLRFin_Pho3yTY_gGMO1QRxftJnF4YrX1DKis8zRcgDPraSvAc9Epgct6JOYzhFVYOUBS_xKTNeQKFRt9DqgkQjzIVRQitkr6WoT8KuByw",
+      "descripcion": "Retorna a la Clases la proxima semana, cumpliendo con el respectivo autocuidado",
+      "fecha_inicio": "01/07/2021",
+      "fecha_finaliza": ""
+    },
+    {
+      "albumId": 1,
+      "id": 7,
+      "categoria": "RECREACIÓN",
+      "title": "Halloween en Familia",
+      "url": "https://www.unicentrocucuta.com/wp-content/uploads/2019/10/UNIVACACIONES-RECREATIVAS-1024x341.png",
+      "descripcion": "Disfruta del HalloWeen en Ventura Plaza, no olvides llevar a tus pequeñines disfrazados",
+      "fecha_inicio": "31/10/2021",
+      "fecha_finaliza": ""
+    },
+    {
+      "albumId": 1,
+      "id": 8,
+      "categoria": "SEGURIDAD VIAL",
+      "title": "Semana de la Seguridad Vial",
+      "url": "https://ww2.ufps.edu.co/public/imagenes/eventos/d42634a88beed443fb9cb3b14fd4684f.jpg",
+      "descripcion": "Aprende a como movilizarte por tu ciudad, con todas la medidas de seguridad al volante",
+      "fecha_inicio": "05/07/2021",
+      "fecha_finaliza": ""
+    },
+    {
+      "albumId": 1,
+      "id": 9,
+      "categoria": "EDUCACIÓN",
+      "title": "Charlas Educativas",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH6kwbQQUvRl5bsAtTQOsyEj_2SVL7vp1CIw&usqp=CAU",
+      "descripcion": "La Secretaría de Educación Municipal hace constar oficialmente que estamos autorizados ",
+      "fecha_inicio": "20/06/2021",
+      "fecha_finaliza": "26/06/2021"
+    },
+    {
+      "albumId": 1,
+      "id": 10,
+      "categoria": "MODA",
+      "title": "Cúcuta Moda 2021",
+      "url": "https://pbs.twimg.com/media/DhH1xHrW0AE3-qi.jpg",
+      "descripcion": "Vive la Moda en Cúcuta, con artistas internacionales, compra tu boleta, aquí - sitio autorizado",
+      "fecha_inicio": "05/07/2021",
+      "fecha_finaliza": "06/07/2021"
+    }
+]

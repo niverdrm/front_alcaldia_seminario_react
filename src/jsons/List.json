@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "title": "Mecanismos de contacto",
+        "content":[
+            {
+                "id": 1.1,
+                "title": "Mecanismos para la atención del ciudadano",
+                "description": "Así puedes contactarnos."
+            },
+            {
+                "id": 1.2,
+                "title": "Localización física, sucursales o regionales, horarios y días de atención al público",
+                "description": "Nos encuentras en esta ubicación."
+            },
+            {
+                "id": 1.3,
+                "title": "Correo electrónico para notificaciones judiciales",
+                "description": "Nuestra oficina jurídica al servicio de nuestra comunidad."
+            },
+            {
+                "id": 1.4,
+                "title": "Políticas de seguridad de la información del sitio web y protección de datos personales",
+                "description": "Nuestra información es segura y oportuna."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Información de interés ",
+        "content":[
+            {
+                "id": 2.1,
+                "title": "Publicación de datos abiertos",
+                "description": "Conoce sobre regalías y otros datos de interés."
+            },
+            {
+                "id": 2.2,
+                "title": "Estudios e investigaciones y otras publicaciones",
+                "description": "Descubre avances resultados y publicaciones."
+            },
+            {
+                "id": 2.3,
+                "title": "Convocatorias",
+                "description": "Tu talento es útil para nuestro municipio."
+            },
+            {
+                "id": 2.4,
+                "title": "Preguntas y respuestas frecuentes",
+                "description": "Así respondemos a las preguntas más frecuentes."
+            },
+            {
+                "id": 2.5,
+                "title": "Glosario",
+                "description": "Aprende el significado de palabras fundamentales."
+            },
+            {
+                "id": 2.6,
+                "title": "Noticias",
+                "description": "Permanece actualizado con nosotros."
+            },
+            {
+                "id": 2.7,
+                "title": "Calendario de actividades",
+                "description": "Entérate de nuestros próximos eventos."
+            },
+            {
+                "id": 2.8,
+                "title": "Información para niños, niñas y adolescentes",
+                "description": "Nuestro futuro en acción."
+            },
+            {
+                "id": 2.9,
+                "title": "Información adicional",
+                "description": "Estos datos te pueden interesar."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Estructura orgánica y talento humano",
+        "content":[
+            {
+                "id": 3.1,
+                "title": "Misión y Visión",
+                "description": "Descubre nuestro propósito común."
+            },
+            {
+                "id": 3.2,
+                "title": "Funciones y deberes",
+                "description": "Descubre avances resultados y publicaciones."
+            },
+            {
+                "id": 3.3,
+                "title": "Procesos y procedimientos",
+                "description": "Conoce los pasos de nuestro accionar."
+            },
+            {
+                "id": 3.4,
+                "title": "Organigrama",
+                "description": "Así organizamos nuestra administración."
+            },
+            {
+                "id": 3.5,
+                "title": "Directorio de información de servidores públicos, empleados y contratistas",
+                "description": "Conoce a quienes trabajamos con nuestro municipio."
+            },
+            {
+                "id": 3.6,
+                "title": "Directorio de entidades",
+                "description": "Estas instituciones apoyan nuestra gestión."
+            },
+            {
+                "id": 3.7,
+                "title": "Directorio de asociaciones, agremiaciones y otros grupos de interés",
+                "description": "Intégrate a la construcción de nuestra comunidad."
+            },
+            {
+                "id": 3.8,
+                "title": "Ofertas de empleo",
+                "description": "Busca oportunidades laborales."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Normatividad",
+        "content":[
+            {
+                "id": 4.1,
+                "title": "Normatividad",
+                "description": "Estas normas definen nuestro funcionamiento."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Presupuesto",
+        "content":[
+            {
+                "id": 5.1,
+                "title": "Presupuesto General",
+                "description": "Así equilibramos gastos e ingresos públicos."
+            },
+            {
+                "id": 5.2,
+                "title": "Ejecución Presupuestal Histórica Anual",
+                "description": "Así invertimos nuestros recursos."
+            },
+            {
+                "id": 5.3,
+                "title": "Estados Financieros",
+                "description": "Conoce nuestra situación económica."
+            }
+        ]
+    }
+]

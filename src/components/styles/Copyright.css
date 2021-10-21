@@ -1,0 +1,124 @@
+#copyright {
+	background-color: #1A437A;
+	color: rgba(255,255,255,.9);
+	font-size: 0.857em;
+	padding: 30px 0;
+}
+
+#copyright .brand span {display: block; font-size: 1.125em;}
+#copyright .brand a {
+	color: #66A9F4;
+}
+#copyright .brand a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.socialnetworks.bottom .title {
+	text-align: right;
+}
+.socialnetworks.bottom ul {
+	float: right;
+}
+.socialnetworks.bottom ul li {
+	margin-left: 5px;
+}
+.socialnetworks.bottom ul li a {
+	color: rgba(255,255,255,.75);
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+.socialnetworks.bottom ul li a .fa {
+	font-size: 2em;
+	line-height: 2em;
+}
+
+.socialnetworks-block .col-md-6 {margin-bottom: 30px;}
+
+.tagline {
+	color: #959595;
+	line-height: 2.5em;
+	font-weight: 300;
+}
+.socialnetworks .tagline {margin-right: 10px;}
+
+.socialnetworks ul {
+	padding: 0;
+	margin: 0;
+}
+.socialnetworks ul li, .socialnetworks li.icon {
+	list-style: none;
+	display: inline-block;
+	margin-left: 1px;
+}
+.socialnetworks ul li a, .socialnetworks li.icon a {
+	color: #898989;
+	border-top: 3px solid #215A9A;
+	width: 40px;
+	height: 37px;
+	display: block;
+	text-align: center;
+	
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+.socialnetworks li.icon a {padding: 0;}
+.socialnetworks ul li a span.icon, .socialnetworks li.icon a span.icon {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+.socialnetworks ul li a span.text, .socialnetworks li.icon a span.text {display: none;}
+.socialnetworks ul li a:hover, .socialnetworks li.icon a:hover {
+	color: #FFFFFF;
+	background: #215A9A;
+	border-color: rgba(0,0,0,.15);
+	
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.socialnetworks ul li.facebook a, .socialnetworks li.icon.facebook a {border-color: #3B5998;}
+.socialnetworks ul li.twitter a, .socialnetworks li.icon.twitter a {border-color: #55ACEE;}
+.socialnetworks ul li.youtube a, .socialnetworks li.icon.youtube a {border-color: #CC181E;}
+
+.socialnetworks ul li.facebook a:hover, .socialnetworks li.icon.facebook a:hover {background-color: #3B5998; border-color: rgba(0,0,0,.2);}
+.socialnetworks ul li.twitter a:hover, .socialnetworks li.icon.twitter a:hover {background-color: #55ACEE; border-color: rgba(0,0,0,.2);}
+.socialnetworks ul li.youtube a:hover, .socialnetworks li.icon.youtube a:hover {background-color: #CC181E; border-color: rgba(0,0,0,.2);}
+
+.options a, .socialnetworks li.icon.config > a {
+	color: #215A9A;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	border-color: rgba(0,0,0,0);
+	
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+.options a:hover, .socialnetworks li.icon.config > a:hover {
+	color: #FFFFFF;
+	background: #215A9A;
+	border-color: rgba(0,0,0,.15);
+	
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.flex-all-center{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon33{
+	padding: 0px !important;
+}

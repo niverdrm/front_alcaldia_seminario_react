@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "icon": "FaCheckSquare",
+        "description": "Encuestas"
+    },
+    {
+        "id": 2,
+        "icon": "FaEye",
+        "description": "PQR"
+    },
+    {
+        "id": 3,
+        "icon": "FaEdit",
+        "description": "Encuestas"
+    },
+    {
+        "id": 4,
+        "icon": "FaFileAlt",
+        "description": "Seguimiento PQR"
+    }
+  ]
+  

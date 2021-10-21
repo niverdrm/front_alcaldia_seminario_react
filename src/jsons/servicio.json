@@ -1,0 +1,49 @@
+{
+    "tramites": [
+        {
+            "titulo": "Autorización para la operación de juegos de suerte y azar en la modalidad de promocionales",
+            "descripcion": "Obtener autorización para organizar y operar juegos de suerte y azar con el fin de publicitar o promocionar bienes o servicios, establecimientos, empresas o entidades, en los cuales se ofrezca un premio al público, sin que para acceder al juego se pague directamente.",
+            "gestion": "en linea",
+            "costo": "$0.0",
+            "proceso": "15 DIA(S) HÁBIL(ES)",
+            "tipogestion": "Tramite ",
+            "ir": "https://www.gov.co/ficha-tramites-y-servicios/T27916"
+        },
+        {
+            "titulo": "Impuesto de industria y comercio y su complementario de avisos y tableros.",
+            "descripcion": "Declaración y pago del impuesto por el ejercicio de cualquier actividad comercial, industrial o de servicios, en forma permanente u ocasional en inmuebles determinados, con establecimientos de comercio o sin ellos.",
+            "gestion": "en linea",
+            "costo": "$40.000",
+            "proceso": "15 DIA(S) HÁBIL(ES)",
+            "tipogestion": "Tramite ",
+            "ir": "https://www.gov.co/ficha-tramites-y-servicios/T27916"
+        },
+        {
+            "titulo": "Ampliacion del servicio educativo",
+            "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry.,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.,Lorem Ipsum is simply dummy text of the printing and typesetting industry.,Lorem Ipsum is simply dummy text of the printing and typesetting industry.,Lorem Ipsum is simply dummy text of the printing and typesetting industry.,Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "gestion": "en linea",
+            "costo": "$0.0",
+            "proceso": "2 DIA(S) HÁBIL(ES)",
+            "tipogestion": "Tramite ",
+            "ir": "https://www.gov.co/ficha-tramites-y-servicios/T27916"
+        },
+        {
+            "titulo": "Modificación en el registro de contribuyentes del impuesto de industria y comercio",
+            "descripcion": "Realizar el cambio o actualización en el registro de contribuyentes del impuesto de industria y comercio cuando hayan modificaciones efectuadas con relación a la actividad económica, sujeto pasivo del impuesto o establecimientos, tales como la venta, enajenación, modificación de la razón social, transformación de las actividades que se desarrollen, cambio de dirección del establecimiento y cualquier otra susceptible de modificar en los registros..",
+            "gestion": "en linea",
+            "costo": "$10.000",
+            "proceso": "20 DIA(S) HÁBIL(ES)",
+            "tipogestion": "Tramite ",
+            "ir": "https://www.gov.co/ficha-tramites-y-servicios/T27916"
+        },
+        {
+            "titulo": "Impuesto predial unificado",
+            "descripcion": "Pago que todo propietario, poseedor o quien disfrute del bien ajeno, debe realizar sobre los bienes inmuebles o predios ubicados en la respectiva jurisdicción del Municipio o Distrito.",
+            "gestion": "en linea",
+            "costo": "$20.900",
+            "proceso": "5 DIA(S) HÁBIL(ES)",
+            "tipogestion": "Tramite ",
+            "ir": "https://www.gov.co/ficha-tramites-y-servicios/T27916"
+        }
+    ]
+}

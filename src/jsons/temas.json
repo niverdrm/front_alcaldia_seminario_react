@@ -1,0 +1,58 @@
+[{
+    "id": 1,
+    "title": "AMBIENTE",
+    "image": "https://www.bbva.com/wp-content/uploads/2017/09/hogar-verde-cambio-reciclaje-ahorro-ecologia-habitos-medioambiente-bbva-1-e1506497812244.jpg",
+    "url": "http://www.cucuta-nortedesantander.gov.co/directorio-institucional/secretaria-de-agricultura-medio-ambiente-y-desarrollo",
+    "text": "Conoce cómo trabajamos para preservar la diversidad e integridad de los recursos naturales distritales."
+    
+    },
+    {
+        "id": 2,
+        "title": "CULTURA Y RECREACIÓN",
+        "image": "https://www.areacucuta.com/wp-content/uploads/2018/07/DSC_9379-1000x570.jpg",
+        "url": "https://imrd-cucuta.gov.co/",
+        "text": "¡Disfruta de Cúcuta y sus eventos! Entérate de las últimas noticias de cultura, recreación y deporte."
+    },
+    {
+    "id": 3,
+    "title": "DESARROLLO ECONOMICO",
+    "image": "http://www.ligadeconsumidorescucuta.org/ligacucuta/images/2020fotos/03marzo2020/050320PlanDesarrollo2020_2023Red.jpg",
+    "url": "http://www.nortedesantander.gov.co/Gobernaci%C3%B3n/Administraci%C3%B3n-Departamental/Secretar%C3%ADas/Secretar%C3%ADa-de-Desarrollo-Econ%C3%B3mico",
+    "text": "Te compartimos las noticias de desarrollo económico. Conoce las acciones que harán de Cúcuta una ciudad más competitiva."
+    },
+    {
+    "id": 4,
+    "title": "EDUCACIÓN",
+    "image": "http://www.laopinion.com.co/sites/default/files/2018/01/20/imagen/educacion.jpg",
+    "url": "http://www.sednortedesantander.gov.co/",
+    "text": "Descubre las principales noticias, servicios y trámites del sector de educación."
+    },
+    {
+    "id": 5,
+    "title": "GESTIÓN JURIDICA",
+    "image": "http://www.laopinion.com.co/sites/default/files/2017/06/17/imagen/justicia.jpg",
+    "url": "https://www.eiscucuta.com.co/category/s-i-g/iii-macroproceso-de-apoyo/i-gestion-juridica/",
+    "text": "Trabajamos en defensa de los intereses de la ciudad, de manera íntegra, responsable y comprometida, evitándole a la ciudadanía gastos millonarios."
+    },
+    {
+    "id": 6,
+    "title": "GESTIÓN PUBLICA",
+    "image": "https://asiescucuta.com/new/wp-content/uploads/2021/01/Gesti%C3%B3n-p%C3%BAblica-5.jpg",
+    "url": "http://www.cucuta-nortedesantander.gov.co/",
+    "text": "Te presentamos la gestión pública en Cúcuta. Aquí sabrás cómo se están inviertiendo los recursos de la ciudad."
+    },
+    {
+    "id": 7,
+    "title": "SALUD",
+    "image": "http://www.laopinion.com.co/sites/default/files/2021-03/Jornada-de-salud.jpg",
+    "url": "http://www.ssmcucuta.gov.co/drupal/",
+    "text": "Conoce toda la oferta disponible en tu barrio para garantizarte el ejercicio efectivo del derecho a la salud."
+    },
+    {
+    "id": 8,
+    "title": "SEGURIDAD",
+    "image": "https://gapv.mininterior.gov.co/sites/default/files/galeria-imagenes/entrega_motos_cucuta_6.jpg",
+    "url": "http://www.cucuta-nortedesantander.gov.co/directorio-institucional/secretaria-de-seguridad-ciudadana-394660",
+    "text": "Conoce la politica pública en materia de seguridad, convivencia y acceso a la justicia."
+    }
+    ]
