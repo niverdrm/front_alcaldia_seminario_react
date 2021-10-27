@@ -83,18 +83,18 @@ class NewAlcaldia extends React.Component {
 
   async actulizar(id) {
     const formData = new FormData(document.forms.namedItem("formulario"));
-    for (const item of formData) {
-      console.log(item[0], item[1]);
-    }
+    let object = {};
+    formData.forEach((value, key) => (object[key] = value));
+    let datos = JSON.stringify(object);
     const res = await fetch(`http://localhost:8081/alcaldia/update/${id}`, {
       method: "PUT",
       headers: {
         Authorization: `Bearer ${localStorage.getItem("token")}`,
         "Content-Type": "application/json",
       },
-      body: formData,
+      body: datos,
     });
-    console.log(res.body);
+
     const path = res.status === 200 ? "/Admin/alcaldia" : "/Admin/Servicios";
     this.props.history.push(path);
     return res.json();
@@ -180,17 +180,19 @@ class NewAlcaldia extends React.Component {
                   value={this.state.horarioAtencion}
                 ></Input>
               </FormGroup>
-              <FormGroup className="form_group">
-                <Label for="imagen">
-                  <strong>Imagen</strong>
-                </Label>
-                <Input
-                  type="file"
-                  id="imagen"
-                  accept="image/*"
-                  name="files"
-                ></Input>
-              </FormGroup>
+              {this.state.titulo === "Registrar Alcaldia" && (
+                <FormGroup className="form_group">
+                  <Label for="imagen">
+                    <strong>Imagen</strong>
+                  </Label>
+                  <Input
+                    type="file"
+                    id="imagen"
+                    accept="image/*"
+                    name="files"
+                  ></Input>
+                </FormGroup>
+              )}
               <FormGroup className="form_group">
                 <Button color="success">
                   {this.state.titulo === "Registrar Alcaldia"
