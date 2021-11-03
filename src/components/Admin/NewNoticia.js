@@ -10,7 +10,6 @@ class NewNoticia extends React.Component {
   enviarDatos = async (e) => {
     e.preventDefault();
     const formDataa = new FormData(document.forms.namedItem("formulario"));
-    console.log(formDataa.get("files"));
     await fetch("http://localhost:8081/noticia/save/1", {
       method: "POST",
       headers: {

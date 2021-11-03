@@ -34,6 +34,7 @@ class CrudNoticia extends React.Component {
       })
       .then((error) => console.log(error));
   };
+
   fetchNews = async () => {
     const response = await fetch(`${this.state.url}noticia`);
     const data = await response.json();

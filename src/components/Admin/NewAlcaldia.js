@@ -4,7 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';*/
 import { Row, Col, Form, Input, Label, FormGroup, Button } from "reactstrap";
-import "../styles/NewEvento.css";
+import "../styles/NewAlcaldia.css";
 
 class NewAlcaldia extends React.Component {
   state = {

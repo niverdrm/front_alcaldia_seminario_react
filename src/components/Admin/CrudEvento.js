@@ -1,14 +1,43 @@
 import React from "react";
-import eventos from "../../jsons/Eventos_Semana.json";
 import { FaEdit, FaTrashAlt, FaPlusCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "../styles/CrudEvento.css";
 
 class CrudEvento extends React.Component {
+  state = {
+    data: [],
+    url: "http://localhost:8081/",
+  };
+
   componentDidMount() {
     if (localStorage.getItem("token") === null) {
       this.props.history.push("/login");
     }
+    this.cargarEvento();
   }
+
+  async cargarEvento() {
+    const res = await fetch(`${this.state.url}evento`);
+    const data = await res.json();
+    this.setState({
+      data: data,
+    });
+    console.log(this.state.data);
+  }
+
+  async eliminarEvento(id) {
+    const res = await fetch(`${this.state.url}evento/${id}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+    });
+    if (res.status === 200) {
+      const newData = this.state.data.filter((evento) => evento.id !== id);
+      this.setState({
+        data: newData,
+      });
+    }
+  }
+
   render() {
     return (
       <div>
@@ -16,10 +45,8 @@ class CrudEvento extends React.Component {
           <div className="row">
             <div className="table-responsive col-md-8 offset-md-2">
               <div className="row">
-                <div className="col">
-                  <h2>Añadir Nuevo Evento</h2>
-                </div>
-                <div className="col">
+                <div className="col-12" id="title">
+                  <h2 className="text-center">Lista Evento</h2>
                   <a id="create-icon" href="/Admin/NewEvento">
                     <FaPlusCircle />
                   </a>
@@ -28,29 +55,32 @@ class CrudEvento extends React.Component {
               <table className="table pt-4 text-center ">
                 <thead className="thead-dark">
                   <tr>
-                    <th scope="col">ID</th>
+                    <th scope="col">#</th>
                     <th scope="col">Fecha</th>
                     <th scope="col">Categoria</th>
-                    <th scope="col">Nombre</th>
+                    <th scope="col">Tilulo</th>
                     <th scope="col">Descripción</th>
                     <th scope="col">Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {eventos.map((evento) => (
-                    <tr key={evento.id}>
-                      <td>{evento.id}</td>
-                      <td>
-                        {evento.fecha_inicio}-{evento.fecha_finaliza}
-                      </td>
+                  {this.state.data.map((evento, i) => (
+                    <tr key={evento.idEvento}>
+                      <td>{i + 1}</td>
+                      <td>{evento.fechaEvento.split("T")[0]}</td>
                       <td>{evento.categoria}</td>
-                      <td>{evento.title}</td>
+                      <td>{evento.titulo}</td>
                       <td>{evento.descripcion}</td>
                       <td>
-                        <span id="edit-icon">
+                        <span>
                           <FaEdit />
                         </span>
-                        <span id="delete-icon">
+                        <span
+                          id="delete-icon"
+                          onClick={() => {
+                            this.eliminarEvento(evento.id);
+                          }}
+                        >
                           <FaTrashAlt />
                         </span>
                       </td>

@@ -1,4 +1,9 @@
 #headerAdmin {
-    background-color: #215A9A !important;
-    color: white;
+  background-color: hsl(212, 65%, 37%) !important;
+  color: white;
+}
+a {
+  background: hsl(212, 65%, 37%) !important;
+}
+i {
 }
