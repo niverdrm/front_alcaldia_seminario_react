@@ -1,12 +1,12 @@
-$theme-signup: #03A9F4;
-$theme-signup-darken: #0288D1;
-$theme-signup-background: #2C3034;
-$theme-login: #673AB7;
-$theme-login-darken: #512DA8;
+$theme-signup: #03a9f4;
+$theme-signup-darken: #0288d1;
+$theme-signup-background: #2c3034;
+$theme-login: #673ab7;
+$theme-login-darken: #512da8;
 $theme-login-background: #f9f9f9;
 $theme-dark: #212121;
 $theme-light: #e3e3e3;
-$font-default: 'Roboto', sans-serif;
+$font-default: "Roboto", sans-serif;
 
 $success: #5cb85c;
 $error: #d9534f;
@@ -30,10 +30,10 @@ $error: #d9534f;
   background-origin: revert;
   background-size: cover;
   background-attachment: fixed;
-  opacity: .4;
+  opacity: 0.4;
 }
 
-.logo-alcaldia-login{
+.logo-alcaldia-login {
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -63,7 +63,7 @@ $error: #d9534f;
   overflow: hidden;
   margin-left: 50%;
   position: absolute;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .topLayer {
@@ -101,7 +101,8 @@ input {
   input {
     border-bottom: 1px solid $theme-light;
     color: $theme-light;
-    &:focus, &:active {
+    &:focus,
+    &:active {
       border-color: $theme-signup;
       color: $theme-signup;
     }
@@ -127,7 +128,8 @@ input {
   }
   input {
     border-bottom: 1px solid $theme-dark;
-    &:focus, &:active {
+    &:focus,
+    &:active {
       border-color: $theme-login;
     }
     &:-webkit-autofill {
@@ -177,40 +179,46 @@ input {
 .checkbox {
   -webkit-appearance: none;
   outline: none;
-	background-color: $theme-light;
-	border: 1px solid $theme-light;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-	padding: 12px;
-	border-radius: 4px;
-	display: inline-block;
-	position: relative;
+  background-color: $theme-light;
+  border: 1px solid $theme-light;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
 }
-.checkbox:focus, .checkbox:checked:focus,
-.checkbox:active, .checkbox:checked:active {
+.checkbox:focus,
+.checkbox:checked:focus,
+.checkbox:active,
+.checkbox:checked:active {
   border-color: $theme-signup;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .checkbox:checked {
   outline: none;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05),
+    inset 15px 10px -12px rgba(255, 255, 255, 0.1);
 }
 
 .checkbox:checked:after {
   outline: none;
-	content: '\2713';
+  content: "\2713";
   color: $theme-signup;
-	font-size: 1.4em;
+  font-size: 1.4em;
   font-weight: 900;
-	position: absolute;
-	top: -4px;
-	left: 4px;
+  position: absolute;
+  top: -4px;
+  left: 4px;
 }
 
 .form-checkbox {
   display: flex;
   align-items: center;
-  
+
   label {
     margin: 0 6px 0;
     font-size: 0.72em;
@@ -222,13 +230,13 @@ button {
   margin: 0 10px 0 0;
   width: auto;
   font-weight: 600;
-  text-transform:  uppercase;
+  text-transform: uppercase;
   font-size: 1em;
   color: #fff;
   line-height: 1em;
   letter-spacing: 0.6px;
   border-radius: 3px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
   border: 0;
   outline: 0;
   transition: all 0.25s;
@@ -242,7 +250,7 @@ button {
     background: none;
     box-shadow: none;
     margin: 0;
-    
+
     &.signup {
       color: $theme-signup;
     }
@@ -252,8 +260,10 @@ button {
   }
 }
 
-button:focus, button:active, button:hover {
-  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+button:focus,
+button:active,
+button:hover {
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
   &.signup {
     background: $theme-signup-darken;
   }
@@ -278,7 +288,8 @@ button:focus, button:active, button:hover {
     width: 80%;
     margin-left: 20%;
   }
-  .signup-info, .login-info {
+  .signup-info,
+  .login-info {
     display: none;
   }
 }

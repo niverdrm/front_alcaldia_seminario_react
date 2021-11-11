@@ -1,30 +1,51 @@
-.thead-dark {
-  background-color: #215a9a;
+.container_n {
+  padding: 0px 180px;
+  height: 100vh;
+  background: rgb(189, 189, 189);
+}
+#card_title {
+  margin-left: 25px;
+  color: aliceblue;
+}
+#titleN {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+#number {
+  text-align: left;
+  position: absolute;
+  margin: 10px;
+
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(7, 7, 7);
+}
+#descrition {
+  text-align: left;
+  margin: 10px;
+}
+#action {
+  text-align: left;
+  margin: 10px;
 }
 
-.thead-dark tr th {
-  color: white;
+#action span {
+  margin: 10px;
+}
+
+.card {
+  background: #215a9a;
+}
+.card p {
+}
+#delete-icon {
+  color: rgb(201, 41, 41) !important;
+}
+#create-icon {
+  color: rgb(42, 141, 42) !important;
 }
 #edit-icon {
-  margin-right: 5px;
-  font-size: 25px;
-  color: #2d5d8b;
-}
-
-#delete-icon {
-  font-size: 25px;
-  color: #ab4630;
-  cursor: pointer;
-}
-
-#title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#create-icon {
-  margin: 10px;
-  font-size: 20px;
-  color: #2ead72;
+  color: #413f3e !important;
 }

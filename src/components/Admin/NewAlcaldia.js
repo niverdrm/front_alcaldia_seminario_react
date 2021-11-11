@@ -1,8 +1,4 @@
 import React from "react";
-/*import InputLabel from '@material-ui/core/InputLabel';
-import TextField from '@material-ui/core/TextField';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';*/
 import { Row, Col, Form, Input, Label, FormGroup, Button } from "reactstrap";
 import "../styles/NewAlcaldia.css";
 

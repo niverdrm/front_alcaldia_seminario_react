@@ -40,56 +40,63 @@ class CrudEvento extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="container-fluid pt-4">
-          <div className="row">
-            <div className="table-responsive col-md-8 offset-md-2">
-              <div className="row">
-                <div className="col-12" id="title">
-                  <h2 className="text-center">Lista Evento</h2>
-                  <a id="create-icon" href="/Admin/NewEvento">
-                    <FaPlusCircle />
-                  </a>
-                </div>
+      <div className="container_n">
+        <h3 id="titleN">Eventos</h3>
+        <p>
+          Estan los eventos registrada por un administrador podra editar y
+          eliminar.
+        </p>
+        <div className="row">
+          <div className="col-4">
+            <div className="card">
+              <div>
+                <h5 id="card_title">Agregar Eventos</h5>
+                <a id="create-icon" href="/Admin/NewEvento">
+                  <FaPlusCircle />
+                </a>
               </div>
-              <table className="table pt-4 text-center ">
-                <thead className="thead-dark">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Fecha</th>
-                    <th scope="col">Categoria</th>
-                    <th scope="col">Tilulo</th>
-                    <th scope="col">Descripción</th>
-                    <th scope="col">Acciones</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {this.state.data.map((evento, i) => (
-                    <tr key={evento.idEvento}>
-                      <td>{i + 1}</td>
-                      <td>{evento.fechaEvento.split("T")[0]}</td>
-                      <td>{evento.categoria}</td>
-                      <td>{evento.titulo}</td>
-                      <td>{evento.descripcion}</td>
-                      <td>
-                        <span>
-                          <FaEdit />
-                        </span>
-                        <span
-                          id="delete-icon"
-                          onClick={() => {
-                            this.eliminarEvento(evento.id);
-                          }}
-                        >
-                          <FaTrashAlt />
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
             </div>
           </div>
+          {this.state.data.map((evento, i) => (
+            <div className="col-4">
+              <div className="card">
+                <div>
+                  <h4 id="number">{i + 1}. </h4>
+                  <h5 id="card_title" key={evento.id}>
+                    {evento.titulo}
+                  </h5>
+
+                  <p className="card-text" id="descrition">
+                    {evento.descripcion}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    Categoria: {evento.categoria}
+                  </p>
+                  <div id="card_footer">
+                    <div calssName="card" id="action">
+                      <span
+                        onClick={() => this.eliminarEvento(evento.id)}
+                        id="delete-icon"
+                      >
+                        <FaTrashAlt />
+                      </span>
+                      <span id="edit-icon">
+                        <Link
+                          to={{
+                            pathname: "NewEvento",
+                            state: { detail: evento },
+                          }}
+                        >
+                          <FaEdit />
+                        </Link>
+                      </span>
+                    </div>
+                    <div id="date">{evento.fechaEvento.split("T")[0]}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     );

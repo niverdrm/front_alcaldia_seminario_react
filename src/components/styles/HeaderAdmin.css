@@ -1,9 +1,13 @@
 #headerAdmin {
   background-color: hsl(212, 65%, 37%) !important;
-  color: white;
+  color: rgb(216, 212, 212);
+  height: 65px;
+  width: 100%;
 }
-a {
+.btn {
   background: hsl(212, 65%, 37%) !important;
 }
-i {
+#title {
+  font-size: 40px;
+  font-weight: bold;
 }

@@ -14,12 +14,14 @@ import Mayor from "../pages/Mayor";
 import Temas from "../pages/Temas";
 import Services from "../pages/Services";
 import CrudNoticia from "./Admin/CrudNoticia";
+import CrudCategoria from "./Admin/CrudCategoria";
 import NewNoticias from "./Admin/NewNoticia";
 import CrudEventos from "./Admin/CrudEvento";
 import CrudAlcaldia from "./Admin/CrudAlcaldia";
 import NewEventos from "./Admin/NewEvento";
 import Login from "./Login";
 import NewAlcaldia from "./Admin/NewAlcaldia";
+import NewCategoria from "./Admin/NewCategoria";
 const history = createBrowserHistory();
 function App() {
   return (
@@ -60,6 +62,18 @@ function App() {
         />
         <Route
           exact
+          path="/Admin/categoria"
+          layout={Layout2}
+          component={CrudCategoria}
+        />
+        <Route
+          exact
+          path="/Admin/eventos"
+          layout={Layout2}
+          component={CrudEventos}
+        />
+        <Route
+          exact
           path="/Admin/NewEvento"
           layout={Layout2}
           component={NewEventos}
@@ -75,6 +89,12 @@ function App() {
           path="/Admin/NewNoticia"
           layout={Layout2}
           component={NewNoticias}
+        />
+        <Route
+          exact
+          path="/Admin/NewCategoria"
+          layout={Layout2}
+          component={NewCategoria}
         />
         <Route component={NotFound} />
       </Switch>

@@ -39,72 +39,71 @@ class CrudAlcaldia extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="container-fluid pt-4">
-          <div className="row">
-            <div className="table-responsive col-md-8 offset-md-2">
-              <div className="row">
-                <div className="col-12 " id="title">
-                  <h2 className="text-center">Lista de Alcaldías</h2>
-                  <a id="create-icon" href="/Admin/NewAlcaldia">
-                    <FaPlusCircle />
-                  </a>
-                </div>
+      <div className="container_n">
+        <h3 id="titleN">Alcaldías</h3>
+        <p>
+          Estan son las Alcaldias registrada por un administrador podra editar y
+          eliminar.
+        </p>
+        <div className="row">
+          <div className="col-4">
+            <div className="card">
+              <div>
+                <h5 id="card_title">Agregar Alcaldia</h5>
+                <a id="create-icon" href="/Admin/NewAlcaldia">
+                  <FaPlusCircle />
+                </a>
               </div>
-              <table className="table pt-4 text-center ">
-                <thead className="thead-dark">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Alcalde</th>
-                    <th scope="col">Telefono</th>
-                    <th scope="col">Direccion</th>
-                    <th scope="col">correo</th>
-                    <th scope="col">Horario</th>
-                    <th scope="col">Acciones</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {this.state.data.map((alcaldia, i) => (
-                    <tr key={alcaldia.idAlcaldia}>
-                      <td>{i + 1}</td>
-                      <td>{alcaldia.nombre}</td>
-                      <td>{alcaldia.alcalde}</td>
-                      <td>{alcaldia.telefono}</td>
-                      <td>{alcaldia.direccion}</td>
-                      <td>{alcaldia.correo}</td>
-                      <td>{alcaldia.horarioAtencion}</td>
-                      <td>
-                        {/* <span
-                          id="edit-icon"
-                          onClick={() => this.editarAlcaldia(alcaldia)}
-                        >
-                          <FaEdit />
-                        </span> */}
-
-                        <Link
-                          to={{
-                            pathname: "NewAlcaldia",
-                            state: { detail: alcaldia },
-                          }}
-                        >
-                          <FaEdit />
-                        </Link>
-                        <span
-                          id="delete-icon"
-                          onClick={() => {
-                            this.eliminarAlcaldia(alcaldia.idAlcaldia);
-                          }}
-                        >
-                          <FaTrashAlt />
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
             </div>
           </div>
+          {this.state.data.map((alcaldia, i) => (
+            <div className="col-4">
+              <div className="card">
+                <div>
+                  <h4 id="number">{i + 1}. </h4>
+                  <h5 id="card_title" key={alcaldia.idAlcaldia}>
+                    {alcaldia.nombre}
+                  </h5>
+
+                  <p className="card-text" id="descrition">
+                    Alcalde: {alcaldia.alcalde}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    Telefono: {alcaldia.telefono}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    Dirección: {alcaldia.direccion}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    Correo: {alcaldia.correo}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    Horario: {alcaldia.horarioAtencion}
+                  </p>
+                  <div calssName="card" id="action">
+                    <span
+                      id="delete-icon"
+                      onClick={() => {
+                        this.eliminarAlcaldia(alcaldia.idAlcaldia);
+                      }}
+                    >
+                      <FaTrashAlt />
+                    </span>
+                    <span id="edit-icon">
+                      <Link
+                        to={{
+                          pathname: "NewAlcaldia",
+                          state: { detail: alcaldia },
+                        }}
+                      >
+                        <FaEdit />
+                      </Link>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     );

@@ -3,7 +3,7 @@ import { FaEdit, FaTrashAlt, FaPlusCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../styles/CrudNoticia.css";
 
-class CrudNoticia extends React.Component {
+class CrudCategoria extends React.Component {
   state = {
     data: [],
     url: "http://localhost:8081/",
@@ -14,17 +14,19 @@ class CrudNoticia extends React.Component {
       this.props.history.push("/login");
     }
     this.fetchNews();
-    console.log(this.fetchNews());
+    // console.log(this.fetchNews());
   }
 
-  eliminarNoticia = async (id) => {
-    await fetch(`${this.state.url}noticia/${id}`, {
+  eliminarCategoria = async (id) => {
+    await fetch(`${this.state.url}categoria/${id}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
     })
       .then((response) => {
         if (response.status === 200) {
-          const nuevo = this.state.data.filter((item) => item.idNoticia !== id);
+          const nuevo = this.state.data.filter(
+            (item) => item.idCategoria !== id
+          );
           this.setState({
             data: nuevo,
           });
@@ -37,7 +39,7 @@ class CrudNoticia extends React.Component {
   };
 
   fetchNews = async () => {
-    const response = await fetch(`${this.state.url}noticia`);
+    const response = await fetch(`${this.state.url}categoria`);
     const data = await response.json();
     this.setState({
       data: data,
@@ -46,37 +48,42 @@ class CrudNoticia extends React.Component {
   render() {
     return (
       <div className="container_n">
-        <h3 id="titleN">NOTICIAS</h3>
+        <h3 id="titleN">Categoria</h3>
         <p>
-          Estan son las noticias registrada por un administrador podra editar y
-          eliminar.
+          Estan son las categorias registrada por un administrador podra editar
+          y eliminar.
         </p>
         <div className="row">
           <div className="col-4">
             <div className="card">
               <div>
-                <h5 id="card_title">Agregar Noticia</h5>
-                <a id="create-icon" href="/Admin/NewNoticia">
+                <h5 id="card_title">Agregar Categoria</h5>
+                <a id="create-icon" href="/Admin/NewCategoria">
                   <FaPlusCircle />
                 </a>
               </div>
             </div>
           </div>
-          {this.state.data.map((noticia, i) => (
+          {this.state.data.map((categoria, i) => (
             <div className="col-4">
               <div className="card">
                 <div>
                   <h4 id="number">{i + 1}. </h4>
-                  <h5 id="card_title" key={noticia.idNoticia}>
-                    {noticia.titulo}{" "}
+                  <h5 id="card_title" key={categoria.idCategoria}>
+                    {categoria.titulo}{" "}
                   </h5>
 
                   <p className="card-text" id="descrition">
-                    {noticia.descripcion}
+                    {categoria.descripcion}
+                  </p>
+                  <p className="card-text" id="descrition">
+                    {categoria.orden}
                   </p>
                   <div calssName="card" id="action">
                     <span
-                      onClick={() => this.eliminarNoticia(noticia.idNoticia)}
+                      onClick={() =>
+                        this.eliminarCategoria(categoria.idCategoria)
+                      }
                       id="delete-icon"
                     >
                       <FaTrashAlt />
@@ -95,4 +102,4 @@ class CrudNoticia extends React.Component {
   }
 }
 
-export default CrudNoticia;
+export default CrudCategoria;
