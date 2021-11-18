@@ -32,33 +32,46 @@ class NewNoticia extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="container">
+        <div className="titl">
+          <h2> Registrar Noticia</h2>
+        </div>
         <Row>
-          <Col xs="3"></Col>
-          <Col xs="6">
-            <h2> Registrar Noticia</h2>
-            <Form onSubmit={this.enviarDatos} name="formulario">
+          <Col xs="1"></Col>
+
+          <Col xs="8">
+            <Form
+              onSubmit={this.enviarDatos}
+              name="formulario"
+              className="forms"
+            >
               <FormGroup className="form_group">
                 <Label id="label">
                   <strong>Titulo</strong>
                 </Label>
-                <Input
-                  type="text"
-                  id="nombre"
-                  name="titulo"
-                  onChange={this.param}
-                ></Input>
+                <div id="icon_input">
+                  <Input
+                    type="text"
+                    id="nombre"
+                    name="titulo"
+                    onChange={this.param}
+                  ></Input>
+                  <i class="fas fa-heading"></i>
+                </div>
               </FormGroup>
               <FormGroup className="form_group">
                 <Label id="label">
                   <strong>Descripcion</strong>
                 </Label>
-                <Input
-                  type="textarea"
-                  id="descripcion"
-                  name="descripcion"
-                  onChange={this.param}
-                ></Input>
+                <div id="icon_input">
+                  <Input
+                    type="textarea"
+                    id="descripcion"
+                    name="descripcion"
+                    onChange={this.param}
+                  ></Input>
+                  <i class="fas fa-audio-description"></i>
+                </div>
               </FormGroup>
               <FormGroup className="form_group">
                 <Label id="label">
@@ -84,9 +97,11 @@ class NewNoticia extends React.Component {
                 ></Input>
               </FormGroup>
               <FormGroup className="form_group">
-                <Button type="submit" color="success">
-                  Registrar
-                </Button>
+                <div className="register">
+                  <Button type="submit" color="success">
+                    Registrar
+                  </Button>
+                </div>
               </FormGroup>
             </Form>
           </Col>

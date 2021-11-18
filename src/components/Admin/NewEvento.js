@@ -120,35 +120,43 @@ class NewEvento extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
+        <div className="titl">
+          <h2> {this.state.tituloCl}</h2>
+        </div>
         <Row>
-          <Col xs="3"></Col>
-          <Col xs="6">
-            <h2> {this.state.tituloCl}</h2>
-            <Form name="formulario" onSubmit={this.guardar}>
+          <Col xs="1"></Col>
+          <Col xs="8">
+            <Form name="formulario" onSubmit={this.guardar} className="forms">
               <FormGroup className="form_group">
                 <Label for="titulo">
                   <strong>Titulo</strong>
                 </Label>
-                <Input
-                  type="text"
-                  id="titulo"
-                  name="titulo"
-                  onChange={this.onChange}
-                  value={this.state.titulo}
-                ></Input>
+                <div id="icon_input">
+                  <Input
+                    type="text"
+                    id="titulo"
+                    name="titulo"
+                    onChange={this.onChange}
+                    value={this.state.titulo}
+                  ></Input>
+                  <i class="fas fa-heading"></i>
+                </div>
               </FormGroup>
               <FormGroup className="form_group">
                 <Label for="descripcion">
                   <strong>Descripcion</strong>
                 </Label>
-                <Input
-                  type="textarea"
-                  id="descripcion"
-                  name="descripcion"
-                  onChange={this.onChange}
-                  value={this.state.descripcion}
-                ></Input>
+                <div id="icon_input">
+                  <Input
+                    type="textarea"
+                    id="descripcion"
+                    name="descripcion"
+                    onChange={this.onChange}
+                    value={this.state.descripcion}
+                  ></Input>
+                  <i class="fas fa-heading"></i>
+                </div>
               </FormGroup>
               <FormGroup className="form_group">
                 <Label for="categoria" className="category">
@@ -189,20 +197,24 @@ class NewEvento extends React.Component {
                 <Label for="fechaEvento">
                   <strong>Fecha</strong>
                 </Label>
-                <Input
-                  type="date"
-                  id="fechaEvento"
-                  name="fechaEvento"
-                  onChange={this.onChange}
-                  value={this.state.fechaEvento}
-                ></Input>
+                <div id="icon_input">
+                  <Input
+                    type="date"
+                    id="fechaEvento"
+                    name="fechaEvento"
+                    onChange={this.onChange}
+                    value={this.state.fechaEvento}
+                  ></Input>
+                </div>
               </FormGroup>
               <FormGroup className="form_group">
-                <Button color="success">
-                  {this.state.tituloCl === "Registrar Evento"
-                    ? "Registrar"
-                    : "Actualizar"}
-                </Button>
+                <div className="register">
+                  <Button color="success">
+                    {this.state.tituloCl === "Registrar Evento"
+                      ? "Registrar"
+                      : "Actualizar"}
+                  </Button>
+                </div>
               </FormGroup>
             </Form>
           </Col>

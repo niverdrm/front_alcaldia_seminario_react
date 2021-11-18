@@ -24,10 +24,10 @@ class CrudNoticia extends React.Component {
     })
       .then((response) => {
         if (response.status === 200) {
-          const nuevo = this.state.data.filter((item) => item.idNoticia !== id);
-          this.setState({
-            data: nuevo,
-          });
+          // const nuevo = this.state.data.filter((item) => item.idNoticia !== id);
+          // this.setState({
+          //   data: nuevo,
+          // });
           return response.json();
         } else {
           return response.json();
@@ -76,7 +76,7 @@ class CrudNoticia extends React.Component {
                   </p>
                   <div calssName="card" id="action">
                     <span
-                      onClick={() => this.eliminarNoticia(noticia.idNoticia)}
+                      // onClick={() => this.eliminarNoticia(noticia.idNoticia)}
                       id="delete-icon"
                     >
                       <FaTrashAlt />

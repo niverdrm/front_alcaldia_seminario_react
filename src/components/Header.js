@@ -8,6 +8,7 @@ class Header extends React.Component {
   state = {
     data: [],
     url: "http://localhost:8081/",
+    nombre: "",
   };
 
   componentDidMount() {
@@ -25,11 +26,8 @@ class Header extends React.Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-light nav-dark">
+          <span className="alcaldia">El sitio oficial de Cucuta</span>
           <div className="container">
-            <span className="alcaldia">
-              El sitio oficial de{" "}
-              {this.state.data.map((alcaldia) => alcaldia.nombre)}
-            </span>
             <a className="navbar-brand" href="#">
               <img
                 className="logo-alcaldia "

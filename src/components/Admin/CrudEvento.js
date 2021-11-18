@@ -91,7 +91,7 @@ class CrudEvento extends React.Component {
                         </Link>
                       </span>
                     </div>
-                    <div id="date">{evento.fechaEvento.split("T")[0]}</div>
+                    {/* <div id="date">{evento.fechaEvento.split("T")[0]}</div> */}
                   </div>
                 </div>
               </div>

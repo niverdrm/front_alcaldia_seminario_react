@@ -89,7 +89,14 @@ class CrudCategoria extends React.Component {
                       <FaTrashAlt />
                     </span>
                     <span id="edit-icon">
-                      <FaEdit />
+                      <Link
+                        to={{
+                          pathname: "NewCategoria",
+                          state: { detail: categoria },
+                        }}
+                      >
+                        <FaEdit />
+                      </Link>
                     </span>
                   </div>
                 </div>
