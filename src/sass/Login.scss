@@ -55,6 +55,8 @@ $error: #d9534f;
   height: 100%;
   z-index: 10;
 }
+.canvas-back img {
+}
 
 #slideBox {
   width: 50%;
@@ -281,6 +283,51 @@ button:hover {
       background: $theme-light;
     }
   }
+}
+.logo_login {
+  display: flex;
+  justify-content: center;
+}
+.titulo_login {
+  text-align: center;
+}
+
+.email_login input {
+  border-bottom: $theme-login solid 2px !important ;
+  height: 10px;
+  color: $theme-login;
+}
+
+.email_login label {
+  font-weight: 700;
+  color: rgb(109, 107, 107);
+}
+.clave_login input {
+  border-bottom: $theme-login solid 2px !important ;
+  height: 10px;
+  color: $theme-login;
+}
+
+.clave_login label {
+  font-weight: 700;
+  color: rgb(109, 107, 107);
+}
+.titulo_login h2 {
+  font-weight: 500;
+}
+
+.button-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button-login button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.button-login button i {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -69,18 +69,21 @@ class Login extends React.Component {
           <div
             className="backLeft"
             style={{ backgroundImage: "url(" + ImagenLogin + ")" }}
-          >
-            <img src={LogoLogin} className="logo-alcaldia-login" alt=""></img>
-          </div>
+          ></div>
         </div>
 
         <div id="slideBox">
           <div className="topLayer">
             <div className="right">
               <div className="content">
-                <h2>Iniciar Sesión</h2>
+                <div className="logo_login">
+                  <img src={LogoLogin} alt=""></img>
+                </div>
+                <div className="titulo_login">
+                  <h2>Iniciar Sesión</h2>
+                </div>
                 <form id="form-login" onSubmit={this.enviar}>
-                  <div className="form-element form-stack">
+                  <div className="form-element form-stack email_login">
                     <label htmlFor="username-login" className="form-label">
                       Email
                     </label>
@@ -91,7 +94,7 @@ class Login extends React.Component {
                       onChange={this.param}
                     ></input>
                   </div>
-                  <div className="form-element form-stack">
+                  <div className="form-element form-stack clave_login">
                     <label htmlFor="password-login" className="form-label">
                       Clave
                     </label>
@@ -107,14 +110,14 @@ class Login extends React.Component {
                       {this.state.error}
                     </div>
                   )}
-                  <div className="form-element form-submit">
+                  <div className="form-element form-submit button-login">
                     <button
                       id="logIn"
                       className="login"
                       type="submit"
                       name="login"
                     >
-                      Iniciar Sesión
+                      <i class="fas fa-sign-out-alt"></i> Iniciar Sesión
                     </button>
                   </div>
                 </form>
