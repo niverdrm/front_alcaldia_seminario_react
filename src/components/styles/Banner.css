@@ -1,7 +1,8 @@
-#carouselExampleIndicators{
-    height: 40vw;
+#carouselExampleIndicators {
+  height: 25vw;
+  background: white;
 }
 
-.carousel-item img{
-    height: 40vw;
+.carousel-item img {
+  height: 25vw;
 }

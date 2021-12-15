@@ -4,6 +4,8 @@ import "./styles/Header.css";
 import { Link } from "react-router-dom";
 import logoAlcaldia from "../images/escudo.png";
 import { FaHome } from "react-icons/fa";
+import ImagenLogin from "../images/alcaldiaLogin.jpg";
+import LogoLogin from "../images/logoLogin.png";
 class Header extends React.Component {
   state = {
     data: [],
@@ -25,19 +27,19 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-light nav-dark">
-          <span className="alcaldia">El sitio oficial de Cucuta</span>
+        {/* <nav className="navbar  nav-dark">
+          <span id="alcaldia-nombre">Alcaldia de Cucuta</span>
           <div className="container">
-            <a className="navbar-brand" href="#">
-              <img
-                className="logo-alcaldia "
-                src={logoAlcaldia}
-                alt=""
-                className="d-inline-block align-text-top"
-              />
-            </a>
+            <input placeholder="Buscar" />
           </div>
-        </nav>
+          <a className="navbar-brand" href="#"></a>
+          <img
+            id="logo-alcadia"
+            src={logoAlcaldia}
+            alt=""
+            className="d-inline-block align-text-top"
+          />
+        </nav> */}
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <Link to="/" className="navbar-brand">
@@ -91,7 +93,19 @@ class Header extends React.Component {
                     Temas de Interés
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <div className="container">
+                    <input placeholder="Buscar" />
+                  </div>
+                </li>
               </ul>
+
+              <img
+                id="logo-alcadia"
+                src={LogoLogin}
+                alt=""
+                className="d-inline-block align-text-top"
+              />
             </div>
           </div>
         </nav>

@@ -42,9 +42,6 @@ class Noticias extends React.Component {
               </div>
             ))}
           </div>
-          <div className="button_more">
-            <a className="btn btn-light">Ver más</a>
-          </div>
         </div>
       </div>
     );

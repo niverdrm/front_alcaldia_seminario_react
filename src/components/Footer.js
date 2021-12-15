@@ -8,8 +8,10 @@ class Footer extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Boletin />
-        <Contacto />
+        <div className="boletin_contacto">
+          <Contacto />
+          <Boletin />
+        </div>
         <Copyright />
         {/* <div className="container-fluid footer_top">
                         <p className="special_font"><strong>Suscribase al Boletin Digital</strong></p>

@@ -1,4 +1,8 @@
-.home{
-    background-color: #215A9A;
-    color: black;
+.home {
+  background-color: white;
+  color: black;
+}
+#noticia_evento {
+  display: flex;
+  justify-content: center;
 }

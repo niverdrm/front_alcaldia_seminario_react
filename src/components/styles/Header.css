@@ -1,17 +1,24 @@
-.navbar-brand img{
-    height: 50px;
-    width: 50px;    
+#logo-alcadia {
+  height: 100px;
+  width: 100px;
+  margin-right: 0px;
+  position: absolute;
+  right: 60px;
 }
 
-.nav-dark{
-    background-color: #215A9A;
+.nav-dark {
+  background-color: #215a9a;
+  background-color: red;
 }
 
-.alcaldia{
-    color: white;
+#alcaldia-nombre {
+  color: white;
+  font-size: 10px;
+  margin-left: 20px;
 }
 
-.nav-link:hover{
-    color: #FFFFFF !important;
-    background: #215A9A;
+.nav-link:hover {
+  color: #ffffff !important;
+  background: #215a9a;
+  /* background: #215A9A; */
 }

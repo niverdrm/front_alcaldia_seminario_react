@@ -24,14 +24,12 @@ class Contacto extends React.Component {
   render() {
     return (
       <footer className=" clear-fix">
-        <div className="container">
+        <div className="containerContact">
           <div className="row">
-            <div className="contact col-md-8">
+            <h2 className="title-section">Contáctenos</h2>
+            <div className="contact col-md-12" id="contacto">
               <div className="row">
-                <h2 className="title-section">Contáctenos</h2>
-              </div>
-              <div className="row">
-                <div className="info-container col-md-6">
+                <div className="info-container col-md-3" id="info">
                   <div className="info place">
                     <span className="icon">
                       <FaInfoCircle color="#66A9F4" fontSize="1.250em" />
@@ -46,12 +44,8 @@ class Contacto extends React.Component {
                     <span>Horario atención: </span>
                     {this.state.data.map((alcalde) => alcalde.horarioAtencion)}
                   </div>
-                  <div className="info clock">
-                    <span className="icon">
-                      <FaClock color="#66A9F4" fontSize="1.250em" />
-                    </span>
-                    <a> Atención al ciudadano </a>
-                  </div>
+                </div>
+                <div className="info-container col-md-3" id="info">
                   <div className="info directory">
                     <span className="icon">
                       <FaInfoCircle color="#66A9F4" fontSize="1.250em" />
@@ -67,7 +61,7 @@ class Contacto extends React.Component {
                     </a>
                   </div>
                 </div>
-                <div className="info-container2 col-md-6 ">
+                <div className="info-container2 col-md-3 " id="info">
                   <div className="info phone">
                     <span className="icon">
                       <FaPhone color="#66A9F4" fontSize="1.250em" />
@@ -82,12 +76,15 @@ class Contacto extends React.Component {
                     <span>Lineas Locales: </span>{" "}
                     {this.state.data.map((alcalde) => alcalde.telefono)}
                   </div>
+                </div>
+                <div className="info-container2 col-md-3 " id="info">
                   <div className="info email">
                     <span className="icon">
                       <FaRegEnvelope color="#66A9F4" fontSize="1.250em" />
                     </span>
                     <span>Email: </span>
-                    {this.state.data.map((alcalde) => alcalde.correo)}
+                    {/* {this.state.data.map((alcalde) => alcalde.correo)} */}
+                    alcucuta@gmail.com
                   </div>
 
                   <div className="info email">
@@ -96,19 +93,11 @@ class Contacto extends React.Component {
                     </span>
                     <a>
                       <span>Notificaciones Judiciales:</span>
-                      notificacionesjudiciales@example.gov.co
+                      notifijucial@example.gov.co
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="text-center logo_contacto    col-md-4">
-              <img
-                src={this.state.data.map((alcaldia) => alcaldia.logo)}
-                className="rounded"
-                alt="logo alcaldia"
-              ></img>
             </div>
           </div>
         </div>

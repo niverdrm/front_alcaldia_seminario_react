@@ -13,11 +13,13 @@ class Home extends React.Component {
     return (
       <div className="home">
         <Banner />
-        <Noticia />
+        <div id="noticia_evento">
+          <Noticia />
+          <Eventos />
+        </div>
         {/* <Tramites /> */}
         {/* <Redes /> */}
         {/* <Proyecto /> */}
-        <Eventos />
         {/* <ItemsParticipacion /> */}
       </div>
     );

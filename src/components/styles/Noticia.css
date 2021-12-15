@@ -1,29 +1,33 @@
 .news-card .card {
   width: 22vw;
   border: none;
+  background: saddlebrown;
 }
 
 .container_noticia {
-  width: 90%;
+  width: 95%;
   height: 500px;
   background: rgb(189, 189, 189);
-  margin: 10px;
+  border-radius: 10px;
 }
 .card {
   width: 18rem;
 }
 .noticia {
-  justify-content: center;
   display: flex;
+  justify-content: center;
+  height: 85%;
 }
 .noticia .card {
   margin: 10px;
 }
 
 .dark-back_noticia {
-  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
   display: flex;
   justify-content: center;
+  margin: 10px 0px;
 }
 .section_tittle {
   text-align: center;
@@ -41,9 +45,8 @@
   width: 15vw;
 }
 .button_more {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  position: absolute;
+  right: 10px;
 }
 
 .card-body p {
@@ -55,7 +58,7 @@
 
 .button_view_more {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .new-title {
